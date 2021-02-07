@@ -521,7 +521,7 @@ Main =
       unless nodes[i]
         (cb() if cb)
         return
-      setTimeout softTask, 0 
+      setTimeout softTask, 0
 
     softTask()
 
@@ -698,6 +698,7 @@ Main =
     ['Thread Updater',            ThreadUpdater]
     ['Thread Watcher',            ThreadWatcher]
     ['Thread Watcher (Menu)',     ThreadWatcher.menu]
+    ['Auto Watcher',              AutoWatcher]
     ['Mark New IPs',              MarkNewIPs]
     ['Index Navigation',          Nav]
     ['Keybinds',                  Keybinds]
